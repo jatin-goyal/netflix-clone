@@ -1,0 +1,129 @@
+.profileScreen_signOut {
+  cursor: pointer;
+}
+
+.profileScreen {
+  height: 105vh;
+  color: white;
+}
+
+.profileScreen_body {
+  /* border: 1px solid white; */
+  position: relative;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 6%;
+}
+
+.profileScreen_body > h1 {
+  font-size: 50px;
+  font-weight: 700;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+
+.profileScreen_info {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid white; */
+}
+
+.profileScreen_info img {
+  max-height: 100px;
+  height: 60%;
+}
+
+.profileScreen_details {
+  color: white;
+  margin-left: 20px;
+  flex: 10;
+  width: 100%;
+
+  /* border: 1px solid white; */
+}
+
+.profileScreen_details > h2 {
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.profileScreen_signOut {
+  width: 100%;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  padding: 0px 20px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.972);
+}
+
+.profileScreen_plans > h3 {
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #282c2d;
+}
+
+.profileScreen_plans > p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.plans_grid {
+  margin-top: 10px;
+}
+
+.plan {
+  display: flex;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.plans {
+  width: 85%;
+}
+
+.plan:hover {
+  background-color: #3c3d3d;
+}
+
+.subscribe_btn > button {
+  font-size: 1rem;
+  font-weight: 700;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+
+  cursor: pointer;
+
+  padding: 0px 10px;
+  color: white;
+  background-color: rgba(235, 8, 8, 0.9);
+}
+
+.unsubscribe_btn > button {
+  font-size: 1rem;
+  font-weight: 700;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+
+  cursor: pointer;
+
+  padding: 0px 10px;
+  color: white;
+  background-color: rgba(93, 91, 91, 0.9);
+}

@@ -44,11 +44,7 @@ function SignupScreen({ setSignIn }) {
       <form className="signupForm">
         <h2>Sign In</h2>
 
-        <input
-          ref={emailRef}
-          type="email"
-          placeholder="Email or Phone number"
-        />
+        <input ref={emailRef} type="email" placeholder="Email address" />
         <input ref={passwordRef} type="password" placeholder="Password" />
         <button onClick={signin} type="submit">
           Sign In

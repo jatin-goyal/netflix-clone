@@ -49,8 +49,8 @@ function SignupScreen({ setSignIn }) {
         <button onClick={signin} type="submit">
           Sign In
         </button>
-        <h3>Or</h3>
-        <button onClick={register} type="submit">
+        <h2>Or</h2>
+        <button onClick={register} type="submit" style={{ margin: 0 }}>
           Sign up
         </button>
         {/* <h4>

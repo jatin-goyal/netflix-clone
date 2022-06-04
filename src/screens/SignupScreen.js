@@ -51,7 +51,7 @@ function SignupScreen({ setSignIn }) {
         </button>
         <h2>Or</h2>
         <button onClick={register} type="submit" style={{ margin: 0 }}>
-          Sign up
+          Sign up now
         </button>
         {/* <h4>
           <span className="signupScreen_grey">New to Netflix? </span>

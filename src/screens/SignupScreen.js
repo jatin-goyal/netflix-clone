@@ -49,12 +49,16 @@ function SignupScreen({ setSignIn }) {
         <button onClick={signin} type="submit">
           Sign In
         </button>
-        <h4>
+        <h3>Or</h3>
+        <button onClick={register} type="submit">
+          Sign up
+        </button>
+        {/* <h4>
           <span className="signupScreen_grey">New to Netflix? </span>
           <span className="signupScreen_link" onClick={register}>
             Sign up now.
           </span>
-        </h4>
+        </h4> */}
       </form>
     </div>
   );
